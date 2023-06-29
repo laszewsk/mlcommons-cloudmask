@@ -1,0 +1,8 @@
+Bootstrap: library
+From:  /sylabsdemo/containers/tensorflow:latest-gpu-signed
+
+%post
+	apt install time
+
+%test
+	echo "gregor"
